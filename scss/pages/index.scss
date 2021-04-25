@@ -11,17 +11,11 @@ body {
 
     .responsive-img {
         width: 100%;
-        height: intrinsic;
     }
 
     #main {
         max-width: 640px;
         margin: 0 auto;
-
-        #logo, #slogan {
-            display: flex;
-            justify-content: center;
-        }
 
         #logo {
             margin-top: 7%;
@@ -136,6 +130,12 @@ body {
             margin-bottom: 13%;
 
             .button-group {
+                .ct-label, .ct-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+
                 .ct-label {
                     margin: 15px auto 0;
                 }
@@ -152,7 +152,7 @@ body {
                     width: 29%;
                 }
 
-                #btn-install {
+                #btn-install, #btn-install-android {
                     width: 67%;
                 }
 
