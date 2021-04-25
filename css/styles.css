@@ -11,6 +11,7 @@ body {
 }
 body .responsive-img {
   width: 100%;
+  height: intrinsic;
 }
 body #main {
   max-width: 640px;
