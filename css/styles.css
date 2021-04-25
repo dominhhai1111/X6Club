@@ -55,6 +55,15 @@ body #main #form-area #register-form .form-group .form-control {
 body #main #form-area #register-form .form-group .form-control:focus, body #main #form-area #register-form .form-group .form-control:hover {
   background-image: url(../img/bg-input-hover.png) !important;
 }
+body #main #form-area #register-form .form-group .form-control:focus::-webkit-input-placeholder, body #main #form-area #register-form .form-group .form-control:hover::-webkit-input-placeholder {
+  color: yellow;
+}
+body #main #form-area #register-form .form-group .form-control:focus::-moz-placeholder, body #main #form-area #register-form .form-group .form-control:hover::-moz-placeholder {
+  color: yellow;
+}
+body #main #form-area #register-form .form-group .form-control:focus:-ms-input-placeholder, body #main #form-area #register-form .form-group .form-control:hover:-ms-input-placeholder {
+  color: yellow;
+}
 @media screen and (max-width: 499px) {
   body #main #form-area #register-form .form-group .form-control {
     height: 40px;
