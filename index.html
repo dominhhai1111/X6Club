@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Project Structure</title>    
+<title>X6Club</title>    
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/styles.css">
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
 <body>
-    <div class="main">
-        <h1>Project Structure</h1>
+    <div id="main">
+        <div class="d-flex justify-content-center">
+            <a href="#" id="logo" class="text-center"><img src="img/logo.png" class="responsive-img" alt=""></a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="#" id="slogan" class="text-center"><img src="img/slogan.png" class="responsive-img" alt=""></a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div id="form-area">
+                <form action="" id="register-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Tên đăng nhập">
+                        <img src="img/icn-user.png" alt="" class="icn icn__prepend">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                        <img src="img/icn-key.png" alt="" class="icn icn__prepend">
+                        <img src="img/icn-eye.png" alt="" class="icn icn__append" onclick="showPassword(this)">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Nhập lại mật khẩu">
+                        <img src="img/icn-key.png" alt="" class="icn icn__prepend">
+                        <img src="img/icn-eye.png" alt="" class="icn icn__append" onclick="showPassword(this)">
+                    </div>
+                    <div class="form-group btn-form">
+                        <button class="btn-submit">
+                            <img src="img/btn-register.png" class="responsive-img" alt="">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div id="other-buttons">
+                <div class="button-group">
+                    <div id="txt-have-account" class="d-flex justify-content-center ct-label">
+                        <img src="img/txt-have-account.png" class="responsive-img" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center ct-button">
+                        <a id="btn-install"  href="#" class="text-center"><img src="img/btn-install.png" class="responsive-img" alt=""></a>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <div id="txt-firewall" class="d-flex justify-content-center ct-label">
+                        <img src="img/txt-firewall.png" class="responsive-img" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center ct-button">
+                        <a id="btn-firewall" href="#" class="text-center"><img src="img/btn-firewall.png" class="responsive-img" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,5 +1,133 @@
 body {
-  background-color: white;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Montserrat;
+  background: #000 url(../img/background.gif) top center no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  z-index: -1;
+}
+body .responsive-img {
+  width: 100%;
+}
+body #main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+body #main #logo, body #main #slogan {
+  display: flex;
+  justify-content: center;
+}
+body #main #logo {
+  margin-top: 7%;
+  width: 29%;
+}
+body #main #slogan {
+  width: 94%;
+}
+body #main #form-area {
+  width: 80%;
+  background: url(../img/bg-form.png) top center/100% 100% no-repeat;
+  padding: 1.6rem 0 2.5rem;
+}
+body #main #form-area #register-form {
+  width: 77%;
+  margin: 0 auto;
+}
+body #main #form-area #register-form .form-group {
+  position: relative;
+  margin-bottom: 5px;
+}
+body #main #form-area #register-form .form-group .form-control {
+  height: 45px;
+  background: url(../img/bg-input.png) top left no-repeat !important;
+  background-size: 100% 100% !important;
+  border: none !important;
+  outline: 0 !important;
+  margin: 0 auto;
+  padding: 0 4rem 0 4.1rem;
+  font-size: 16px;
+  color: #fff !important;
+  border-radius: 0;
+}
+body #main #form-area #register-form .form-group .form-control:focus, body #main #form-area #register-form .form-group .form-control:hover {
+  background-image: url(../img/bg-input-hover.png) !important;
+}
+@media screen and (max-width: 499px) {
+  body #main #form-area #register-form .form-group .form-control {
+    height: 40px;
+  }
+}
+body #main #form-area #register-form .form-group .icn {
+  position: absolute;
+  right: 2rem;
+  top: calc(50% - 15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+body #main #form-area #register-form .form-group .icn__prepend {
+  left: 1.2rem;
+  right: auto;
+}
+body #main #form-area #register-form .form-group .icn__append {
+  left: auto;
+  right: 1.2rem;
+  height: 20px;
+  top: calc(50% - 10px);
+}
+body #main #form-area #register-form .btn-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+body #main #form-area #register-form .btn-form .btn-submit {
+  width: 83%;
+  background: 0 0;
+  border: none;
+  padding: 0 !important;
+}
+body #main #form-area #register-form .btn-form .btn-submit:hover {
+  -webkit-filter: drop-shadow(2px 2px 8px red) brightness(1.3) !important;
+  filter: drop-shadow(2px 2px 8px red) brightness(1.3) !important;
+}
+@media screen and (max-width: 499px) {
+  body #main #form-area #register-form {
+    width: 85%;
+  }
+}
+body #main #other-buttons {
+  width: 100%;
+  margin-bottom: 13%;
+}
+body #main #other-buttons .button-group .ct-label {
+  margin: 15px auto 0;
+}
+body #main #other-buttons .button-group .ct-button {
+  margin: 10px auto 0;
+}
+body #main #other-buttons .button-group .ct-button:hover {
+  opacity: 0.7;
+}
+body #main #other-buttons .button-group #txt-have-account {
+  width: 29%;
+}
+body #main #other-buttons .button-group #btn-install {
+  width: 67%;
+}
+body #main #other-buttons .button-group #txt-firewall {
+  width: 46%;
+}
+body #main #other-buttons .button-group #btn-firewall {
+  width: 52%;
 }
 
 /*# sourceMappingURL=styles.css.map */
