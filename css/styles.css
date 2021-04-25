@@ -51,6 +51,7 @@ body #main #form-area #register-form .form-group .form-control {
   font-size: 16px;
   color: #fff !important;
   border-radius: 0;
+  box-shadow: none !important;
 }
 body #main #form-area #register-form .form-group .form-control:focus, body #main #form-area #register-form .form-group .form-control:hover {
   background-image: url(../img/bg-input-hover.png) !important;
@@ -72,15 +73,15 @@ body #main #form-area #register-form .form-group .form-control:focus:-ms-input-p
 body #main #form-area #register-form .form-group .icn {
   position: absolute;
   right: 2rem;
-  top: calc(50% - 15px);
+  top: calc(50% - 12px);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   text-align: center;
   font-size: 20px;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 body #main #form-area #register-form .form-group .icn__prepend {
   left: 1.2rem;
@@ -89,7 +90,7 @@ body #main #form-area #register-form .form-group .icn__prepend {
 body #main #form-area #register-form .form-group .icn__append {
   left: auto;
   right: 1.2rem;
-  height: 20px;
+  height: 18px;
   top: calc(50% - 10px);
 }
 body #main #form-area #register-form .btn-form {
